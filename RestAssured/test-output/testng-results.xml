@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-22T11:14:16 IST" name="Default suite" finished-at="2024-07-22T11:14:29 IST" duration-ms="12336">
+    <groups>
+    </groups>
+    <test started-at="2024-07-22T11:14:16 IST" name="Default test" finished-at="2024-07-22T11:14:29 IST" duration-ms="12336">
+      <class name="RentalApi.endToEnd">
+        <test-method signature="register()[pri:1, instance:RentalApi.endToEnd@29e495ff]" started-at="2024-07-22T11:14:16 IST" name="register" finished-at="2024-07-22T11:14:21 IST" duration-ms="4529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="creatingOrder(java.lang.String)[pri:2, instance:RentalApi.endToEnd@29e495ff]" started-at="2024-07-22T11:14:21 IST" name="creatingOrder" data-provider="token" finished-at="2024-07-22T11:14:22 IST" duration-ms="1393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eebadd84f01b2cdcb58c3b8831d64559384a27386f8cbe3ee6c719a3cbae5ef9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingOrder -->
+        <test-method signature="gettingOrder(java.lang.String)[pri:3, instance:RentalApi.endToEnd@29e495ff]" started-at="2024-07-22T11:14:22 IST" name="gettingOrder" data-provider="token" finished-at="2024-07-22T11:14:24 IST" duration-ms="1277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eebadd84f01b2cdcb58c3b8831d64559384a27386f8cbe3ee6c719a3cbae5ef9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettingOrder -->
+        <test-method signature="updatingOrder(java.lang.String)[pri:4, instance:RentalApi.endToEnd@29e495ff]" started-at="2024-07-22T11:14:24 IST" name="updatingOrder" data-provider="token" finished-at="2024-07-22T11:14:26 IST" duration-ms="2541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eebadd84f01b2cdcb58c3b8831d64559384a27386f8cbe3ee6c719a3cbae5ef9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingOrder -->
+        <test-method signature="deletingOrder(java.lang.String)[pri:5, instance:RentalApi.endToEnd@29e495ff]" started-at="2024-07-22T11:14:26 IST" name="deletingOrder" data-provider="token" finished-at="2024-07-22T11:14:29 IST" duration-ms="2535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eebadd84f01b2cdcb58c3b8831d64559384a27386f8cbe3ee6c719a3cbae5ef9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingOrder -->
+      </class> <!-- RentalApi.endToEnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
